@@ -1,3 +1,5 @@
+var negabinaryApp = angular.module('negabinaryApp', []);
+
 function decimalToNegabinary(decimal) {
 
     var negabinary = [];
