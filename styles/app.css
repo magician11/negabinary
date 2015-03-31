@@ -1,0 +1,20 @@
+body {
+    background-image: url(../images/binary-ball.jpg);
+}
+
+.jumbotron {
+    margin-top: 88px;
+    padding: 44px 88px;
+    border-radius: 8px;
+    background-color: black;
+}
+
+
+form {
+    width: 55%;
+    margin: 44px auto 0 auto;
+}
+
+input[type="number"] {
+    text-align: center;
+}
