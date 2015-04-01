@@ -20,7 +20,7 @@
     </head>
     <body ng-app="negabinaryApp">
         <div class="jumbotron container text-center">
-            <h1>Decimal to negabinary</h1>
+            <h1>Decimal to Negabinary</h1>
 
             <form>
                 <div class="form-group input-group-lg">
@@ -28,7 +28,7 @@
                 </div>
             </form>
 
-            <h2>{{decimal | negabinary}}</h2>
+            <h2 ng-show="decimal">{{decimal}} (decimal) = {{decimal | negabinary}} (negabinary)</h2>
         </div>
 
         <!-- 3rd party JS -->
