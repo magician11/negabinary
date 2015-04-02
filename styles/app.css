@@ -26,3 +26,18 @@ form {
 input[type="number"] {
     text-align: center;
 }
+
+/* Calculations in table */
+
+.negabinary-table th, .negabinary-table td, h4 {
+    color: white;
+}
+
+.negabinary-table th {
+    text-align: center;
+}
+
+.negabinary-table {
+    width: 45%;
+    margin: 0 auto;
+}
